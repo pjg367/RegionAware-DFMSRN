@@ -1,0 +1,44 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and generated artifacts; datasets/ contains source code.
+/data/
+/MSRB_Dataset/
+/GT_dataset/
+/input/
+/output/
+/outputs/
+/results/
+/checkpoints/
+/previews/
+/logs/
+/runs/
+/cache/
+/SET_*/
+*.pth
+*.pt
+*.ckpt
+*.log
+*.tmp
+*.bak
+
+# Excluded synthesis experiments; also review the exact upload file list.
+*wgan*
+*WGAN*
+/synthetic_marine_snow_generation/

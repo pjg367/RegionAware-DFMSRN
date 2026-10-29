@@ -1,0 +1,6 @@
+# Verify versions against the original research environment before reproducing results.
+torch
+torchvision
+numpy
+opencv-python
+tqdm
